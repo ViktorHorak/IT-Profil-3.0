@@ -1,0 +1,25 @@
+{
+    "name": "Viktor Horák",
+    "skills": [
+        "HTML5 & CSS3",
+        "PHP (Back-end)",
+        "JavaScript (ES6+)",
+        "MySQL Databáze",
+        "Git & GitHub",
+        "Linux Server Administration"
+    ],
+    "projects": [
+        {
+            "title": "Školní informační systém",
+            "description": "Jednoduchá PHP aplikace pro správu školních dat."
+        },
+        {
+            "title": "Osobní blog",
+            "description": "Dynamický blog běžící na vlastním PHP enginu."
+        },
+        {
+            "title": "IoT Dashboard",
+            "description": "Vizualizace dat z čidel v reálném čase."
+        }
+    ]
+}

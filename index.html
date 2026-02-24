@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viktor Horák | IT Student</title>
+    <meta name="description" content="Osobní web Viktora Horáka, studenta IT v Příbrami.">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Plus+Jakarta+Sans:wght@300;400;500;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="cursor-glow"></div>
+    <div class="background-blobs">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+    </div>
+
+    <div class="container">
+        <nav>
+            <div class="logo">VH<span>.</span></div>
+            <div class="nav-links">
+                <a href="#about">O mně</a>
+                <a href="#skills">Dovednosti</a>
+                <a href="#projects">Projekty</a>
+            </div>
+        </nav>
+
+        <header id="about">
+            <div class="profile-frame">
+                <div class="profile-image">
+                    <i data-lucide="user"></i>
+                </div>
+            </div>
+            <h1 id="name">Načítání...</h1>
+            <p id="bio" class="subtitle"></p>
+            <div class="social-links">
+                <a href="#" class="btn btn-primary"><i data-lucide="mail"></i> Kontaktovat</a>
+                <a href="#" class="btn btn-secondary"><i data-lucide="github"></i> GitHub</a>
+            </div>
+        </header>
+
+        <section id="skills-section">
+            <div class="section-header">
+                <i data-lucide="code-2"></i>
+                <h2>Moje dovednosti</h2>
+            </div>
+            <div id="skills" class="skills-grid">
+                <!-- Data se načtou skrze JavaScript -->
+            </div>
+        </section>
+
+        <section id="projects-section">
+            <div class="section-header">
+                <i data-lucide="layout"></i>
+                <h2>Školní projekty</h2>
+            </div>
+            <div id="projects" class="projects-grid">
+                <!-- Data se načtou skrze JavaScript -->
+            </div>
+        </section>
+
+        <footer>
+            <p>&copy; 2024 Viktor Horák | Student IT Příbram</p>
+        </footer>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
